@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_first"
+            android:icon="@drawable/ic_message_black"
+            android:title="Envoie SMS"
+            android:textSize="16sp"/>
+        <item
+            android:id="@+id/nav_second"
+            android:icon="@drawable/ic_map_black"
+            android:title="Map" />
+
+        <item android:title="Plus">
+           <menu>
+               <item
+                   android:id="@+id/nav_third"
+                   android:icon="@drawable/ic_settings_black"
+                   android:title="Paramètres" />
+               <item
+                   android:id="@+id/nav_fourth"
+                   android:icon="@drawable/ic_people_black"
+                   android:title="A propos de nous" />
+           </menu>
+        </item>
+    </group>
+</menu>

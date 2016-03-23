@@ -1,0 +1,11 @@
+<resources>
+    <string name="google_maps_api_key">AIzaSyCHyLA5Pry0F-IKiGXTVrt0m2WsYUYzXdI</string>
+    <string name="facebook_app_id">479391465595352</string>
+
+    <string name="app_name">Hey !</string>
+    <string name="numTel">Entrez un numéro de téléphone :</string>
+    <string name="messageSMS">Entrez le message à envoyer :</string>
+
+    <string name="drawer_open">Open navigation drawer</string>
+    <string name="drawer_close">Close navigation drawer</string>
+</resources>

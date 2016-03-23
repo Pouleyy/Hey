@@ -1,0 +1,26 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/nav_view"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    xmlns:facebook="http://schemas.android.com/tools"
+    android:background="@color/bleuTurquoise"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:gravity="bottom">
+
+    <com.facebook.login.widget.ProfilePictureView
+        android:id="@+id/imageFB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        facebook:preset_size="small"/>
+
+    <TextView
+        android:id="@+id/nav_header_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Prenom Nom"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"/>
+
+</LinearLayout>

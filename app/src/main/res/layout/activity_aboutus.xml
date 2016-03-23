@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <include
+        layout="@layout/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/include" />
+
+    <ImageView
+        android:layout_width="295dp"
+        android:layout_height="169dp"
+        android:id="@+id/imageViewLogo"
+        android:src="@drawable/launchlogo"
+        android:layout_below="@+id/include"
+        android:layout_centerHorizontal="true" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/TextViewAboutUS"
+        android:layout_below="@+id/imageViewLogo"
+        android:text="Kevin : Leader du groupe, initiateur du projet, il a développé la structure de l'application.
+Mohamed : A développé l’algorithme permettant de récupérer les coordonnées GPS des utilisateurs.
+Brieuc: A assisté de près Kevin lors de la conception de l'application.
+Tristan : Il a géré l'ergonomie et l'interface de l'application pour la rendre fluide et optimisée.
+"
+        android:paddingLeft="5dp"
+        android:textSize="17sp"/>
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="15dp"
+        android:id="@+id/Space"
+        android:layout_below="@+id/TextViewAboutUS"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Projet"
+        android:layout_below="@+id/Space"
+        android:text="Travail réalisé dans le cadre du projet Android."
+        android:paddingLeft="5dp"/>
+
+
+</RelativeLayout>
