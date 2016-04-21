@@ -1,3 +1,4 @@
-Projet android d'envoie de SMS avec sa localisation.
-Connection avec facebook.
-Fragment de map
+# Hey! dis à tes potes où tu es en deux deux
+
+Connecte toi avec Facebook 
+et ta localisation par SMS
